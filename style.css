@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.container{
+  width: 400px;
+  border: 1px solid red;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.container .key{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: red;
+  padding: 10px;
+}
+.container .key p{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+}
+.container .key p span{
+  font-weight: 700;
+  font-size: 23px;
+}
+.container .duration{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.container .duration p{
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+}
+.container .duration p span{
+  font-weight: 700;
+  font-size: 23px;
+}
